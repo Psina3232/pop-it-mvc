@@ -1,0 +1,16 @@
+{
+    "name": "psina3232/pop-it-mvc",
+    "description": "Description",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "psina3232",
+            "email": "zhuravlevkos9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    }
+}
