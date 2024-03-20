@@ -28,4 +28,12 @@ class Site
        return new View('site.signup');
    }
 
+   public function signup(Request $request): string
+{
+   if ($request->method === 'POST' && User::create($request->all())) {
+       app()->route->redirect('/go');
+   }
+   return new View('site.signup');
+}
+
 }
